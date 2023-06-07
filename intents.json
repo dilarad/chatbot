@@ -1,0 +1,124 @@
+{"intents": [
+    {"tag": "selamlama",
+     "patterns": ["Merhaba", "Nasilsin", "Orada kimse var mi?","Merhaba","Selam","Selamlar", "Merhaba", "Iyi gunler"],
+     "responses": ["Selam","Merhaba","Merhaba, sordugunuz icin tesekkurler", "Sizi tekrar gormek guzel", "Merhaba, nasil yardimci olabilirim?"],
+     "context": [""]
+    },
+    {"tag": "veda",
+     "patterns": ["Gorusuruz", "Sonra gorusuruz", "Hoscakalin", "Sizinle sohbet etmek guzel, hoscakalin", "Kendine iyi bak"],
+     "responses": ["Gorusuruz!", "Iyi gunler", "Hoscakalin! Gorusmek uzere."],
+     "context": [""]
+    },
+    {"tag": "tesekkur",
+     "patterns": ["Tesekkur ederim", "Tesekkurler", "Yardimin icin tesekkur ederim", "Harika, tesekkurler", "Bana yardim ettiginiz icin tesekkurler"],
+     "responses": ["Yardim edebildigim icin mutluyum!", "Her zaman!", "Rica ederim","Ne demek","Onemli degil"],
+     "context": [""]
+    },
+    {"tag": "cevapsiz",
+     "patterns": [],
+     "responses": ["Uzgunum, sizi anlayamiyorum", "Lutfen bana daha fazla bilgi verin", "Anladigimdan emin degilim","Sizi anlayamadim"],
+     "context": [""]
+    },
+    {"tag": "isim",
+     "patterns": ["Isminiz nedir?", "Adiniz nedir?","Senin adin ne?","Adini ogrenebilir miyim?"],
+     "responses": ["Benim adim Sohbet Robotu", "Ismim Sohbet Robotu"],
+     "context": [""]
+    },
+    {
+        "tag": "sorun",
+        "patterns": ["Bir sorun var", "Sorun yasiyorum", "Bir problemim var"],
+        "responses": ["Ne tur bir sorun yasiyorsun?", "Sorunun ne oldugunu anlatabilir misin?", "Sorunu cozmek icin nasil yardimci olabilirim?"],
+        "context": [""]
+      },
+      {
+        "tag": "istek",
+        "patterns": ["Bir sey istiyorum", "Bir seyler onerin", "Bir tavsiye edebilir misiniz?"],
+        "responses": ["Ne tur bir sey istiyorsun?", "Istedigin seyi ne icin kullanacaksin?", "Benim onerilerim arasindan secim yapabilirsin"],
+        "context": [""]
+      },
+      {
+        "tag": "gezi",
+        "patterns": ["Bir gezi plani yapalim", "Bir yere gidelim", "Yurtdisina cikalim"],
+        "responses": ["Nereye gidebiliriz?", "Gidecegimiz yeri ne zaman belirlemek istersin?", "Gidecegimiz yer hakkinda bilgi verir misin?"],
+        "context": [""]
+      },
+      {
+        "tag": "spor",
+        "patterns": ["Spor yapalim", "Bir spor aktivitesi yapalim", "Bir maratona katilalim"],
+        "responses": ["Hangi spor aktivitesini dusunuyorsun?", "Spor yapmayi ne zaman dusunuyorsun?", "Spor yapmayi hangi arkadaslarinla dusunuyorsun?"],
+        "context": [""]
+      },
+      {
+        "tag": "muzik",
+        "patterns": ["Bir muzik dinleyelim", "Bir konser gidelim", "Bir festivale katilalim"],
+        "responses": ["Hangi tur muzik dinlemek istersin?", "Muzik dinlemeyi ne zaman yapalim?","En sevdigin muzik hangisi?"],
+        "context": [""]
+      },
+      {
+        "tag": "hobi",
+        "patterns": ["Bir hobi edinmek istiyorum", "Bir yeni hobi bulmak istiyorum", "Bir hobi ile ugrasmak istiyorum"],
+        "responses": ["Hangi tur bir hobi dusunuyorsun?", "Hobini ne zaman yapmak istersin?", "Hobini hangi arkadaslarinla yapmak istersin?"],
+        "context": [""]
+      },
+      {
+        "tag": "yemek",
+        "patterns": ["Yemek yapalim", "Bir yemek tarifine ihtiyacim var", "Yemek yapmayi ogrenmek istiyorum"],
+        "responses": ["Hangi tur bir yemek yapmak istersin?", "Yemek yapmayi ne zaman dusunuyorsun?", "Yemek yapmayi hangi arkadaslarinla dusunuyorsun?"],
+        "context": [""]
+      },
+      {
+        "tag": "kitap",
+        "patterns": ["Bir kitap okumak istiyorum", "Bir kitap onerin", "Bir kitap klubu kuralim"],
+        "responses": ["Hangi tur bir kitap okumak istersin?", "Kitap okumayi ne zaman dusunuyorsun?", "Kitap okumayi hangi arkadaslarinla dusunuyorsun?"],
+        "context": [""]
+      },
+      {
+        "tag": "sinema",
+        "patterns": ["Bir film izlemek istiyorum", "Bir film onerin", "Bir sinema gunu yapalim"],
+        "responses": ["Hangi tur bir film izlemek istersin?", "Film izlemeyi ne zaman dusunuyorsun?", "Film izlemeyi hangi arkadaslarinla dusunuyorsun?"],
+        "context": [""]
+      },
+      {
+        "tag": "sanat",
+        "patterns": ["Bir sanat etkinligine gitmek istiyorum", "Bir sergi gezelim", "Bir tiyatro oyununa gidelim"],
+        "responses": ["Hangi tur bir sanat etkinligi dusunuyorsun?", "Sanat etkinligini ne zaman dusunuyorsun?", "Sanat etkinligini hangi arkadaslarinla dusunuyorsun?"],
+        "context": [""]
+      },
+      {
+        "tag": "yoga",
+        "patterns": ["Yoga yapalim", "Bir yoga dersine gitmek istiyorum", "Yoga ogrenmek istiyorum"],
+        "responses": ["Hangi tur bir yoga dusunuyorsun?", "Yogayi ne zaman dusunuyorsun?", "Yogayi hangi arkadaslarinla dusunuyorsun?"],
+        "context": [""]
+      },
+      {
+        "tag": "fotograf",
+        "patterns": ["Bir fotograf cektirmeyi dusunuyorum", "Bir fotograf makinesi almak istiyorum", "Bir fotograf cekimi yapalim"],
+        "responses": ["Hangi tur bir fotograf cekimi dusunuyorsun?", "Fotograf cekimini ne zaman dusunuyorsun?", "Fotograf cekimini hangi arkadaslarinla dusunuyorsun?"],
+        "context": [""]
+      },
+      {
+        "tag": "seyahat",
+        "patterns": ["Bir seyahat plani yapalim", "Bir yurtdisi seyahati dusunuyorum", "Bir tatil icin seyahat etmek istiyorum"],
+        "responses": ["Hangi tur bir seyahat dusunuyorsun?", "Seyahati ne zaman dusunuyorsun?", "Seyahati hangi arkadaslarinla dusunuyorsun?"],
+        "context": [""]
+      },
+      {
+        "tag": "tarim",
+        "patterns": ["Bir tarim projesi yapmak istiyorum", "Tarim ile ilgili bilgi almak istiyorum", "Bir tarim faaliyetine katilmak istiyorum"],
+        "responses": ["Hangi tur bir tarim projesi dusunuyorsun?", "Tarim projesini ne zaman dusunuyorsun?", "Tarim projesini hangi arkadaslarinla dusunuyorsun?"],
+        "context": [""]
+      }  ,
+      {
+        "tag": "bilgi",
+          "patterns": ["Hava sicakligi ne kadar?", "Yarin hava nasil olacak?"],
+      "responses": ["Ogrenebilecegim bir bilgi degil.", "Maalesef, hava durumu hakkinda bilgi sahibi degilim."],
+"context": [""]
+      },
+      {
+        "tag": "sikayet", 
+      "patterns": ["Bu servis hic ise yaramiyor", "Bu urun cok kotu", "Bu restoran berbat"], 
+      "responses": ["Uzgunum, duydugum icin uzgunum.", "Anladim, bu konuda size yardimci olmaya calisacagim.", "Uzgunum, bu konuda size yardimci olmaya calisacagim."], 
+      "context": [""] 
+      }
+]
+}
